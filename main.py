@@ -27,8 +27,8 @@ scissors = '''
 ---.__(___)
 '''
 
-choice = [rock, paper, scissors]
-choice_name = ["rock", "paper", "scissors"]
+choice_image = [rock, paper, scissors]  #image of selected choice
+choice_name = ["rock", "paper", "scissors"]   #name of selected choice
 
 best_of = int(input("Enter the amount of points needed to win - (3, 5 etc): "))
 
@@ -42,9 +42,9 @@ while human_points < best_of and computer_points < best_of:
   if human == 0 or human == 1 or human == 2:
     pc = random.randint(0,2)
 
-    print(f"\nyou chose {choice_name[human]} \n {choice[human]}\n")
+    print(f"\nyou chose {choice_name[human]} \n {choice_image[human]}\n")
 
-    print(f"the computer chose {choice_name[pc]} \n {choice[pc]}\n")
+    print(f"the computer chose {choice_name[pc]} \n {choice_image[pc]}\n")
 
     if(human == 0 and pc == 0 or human == 1 and pc == 1 or human == 2 and pc == 2):
       print("That's a tie! You both got 0 extra points. \n")
@@ -65,4 +65,4 @@ if human_points > computer_points:
 else:
   print("\nThe computer won the game ˙◠˙ , better luck next time!")
 
-time.sleep(5)
+time.sleep(5) # Pause execution for 5 seconds to allow the user to read the output
