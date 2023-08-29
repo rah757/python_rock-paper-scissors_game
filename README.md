@@ -1,7 +1,7 @@
 # Rock-Paper-Scissors Game
 Welcome to the Rock-Paper-Scissors game! This is a simple Python implementation of the classic game where you can play against the computer. Test your luck and strategy by choosing between rock, paper, and scissors to see who comes out as the winner.
 
-## Images
+## Screenshots
 ![image](https://github.com/rah757/python_rock-paper-scissors_game/assets/69799424/be51b8d2-25f5-4121-870a-b49b869f629d)
 ![image](https://github.com/rah757/python_rock-paper-scissors_game/assets/69799424/0b958814-3d15-426c-a1cb-7480dd3b8d89)
 
@@ -29,4 +29,4 @@ If you'd like to try out the game without downloading anything, you can also pla
 ](https://replit.com/@rahmanar/rock-paper-scissors-start?v=1)
 
 ## Acknowledgments
-The original code was created during a Replit coding session. You can find the original code and play the game online [here](https://replit.com/@rahmanar/rock-paper-scissors-start?v=1).
+The original code was created during a Replit coding session. You can find the original code and play the game online [here at replit](https://replit.com/@rahmanar/rock-paper-scissors-start?v=1). You can also fork the code and try it out for yourself.
